@@ -21,7 +21,7 @@ class formularioContactar(Form):  # FlaskForm
     comentario = TextField("comentario")
 
     # señuelo
-    sunyuelo = HiddenField("", [honeyPot])
+    sunyuelo = HiddenField("", validators=[honeyPot])
 
 # def formularioContactar():
 #     formulario = TemplateFormLogin()
