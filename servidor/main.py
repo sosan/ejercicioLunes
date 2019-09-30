@@ -8,9 +8,14 @@ app = Flask(__name__)
 # app.config["SECRET_KEY"] = os.usrandom(12)
 
 
-@app.route("/", methods=["GET", "POS"])
+@app.route("/", methods=["GET", "POST"])
 def home():
-    contactar = forms.formularioContactar()
+    contactar = forms.formularioContactar(request.form)
+
+    if request.method == "POST" and contactar.validate():
+        print("cONTACTAR {}" .format(contactar.nombre.data))
+        print("cONTACTAR {}".format(contactar.email.data))
+        print("cONTACTAR {}".format(contactar.comentario.data))
 
     # dentro del html ya podemos utilizar formilarios en lfask
 
@@ -41,7 +46,7 @@ def parame(nombre=""):
 
 @app.errorhandler(404)
 def customerror404():
-    pass
+    return "FFF"
 
 
 if __name__ == '__main__':

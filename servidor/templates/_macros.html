@@ -14,13 +14,13 @@
 
 
 {% macro formularioContactar(campo) %}
-
-
-
     {{ campo.label }}
     <!-- **kwards dicicionario de argumentos convertido en html-->
     {{ campo(**kwargs) | safe }}
-
-
+    {% if campo.errors %}
+        {% for error in campo.errors %}
+            <h6>{{ error }}</h6>
+        {% endfor %}
+    {% endif %}
 
 {%endmacro %}

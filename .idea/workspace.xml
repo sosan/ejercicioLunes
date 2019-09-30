@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be10ab9-a0fe-42cd-9026-28f671aaf425" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/templates/_macros.html" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/templates/_macros.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/servidor/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/templates/usuario.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +51,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ejercicioibeconLunes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/servidor" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -72,8 +71,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Flask (servidor/main.py)" type="Python.FlaskServer" nameIsGenerated="true">
+      <option name="flaskDebug" value="true" />
+      <module name="ejercicioibeconLunes" />
+      <option name="target" value="$PROJECT_DIR$/servidor/main.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -89,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569860535862</updated>
       <workItem from="1569860537868" duration="3774000" />
-      <workItem from="1569866301001" duration="175000" />
+      <workItem from="1569866301001" duration="1508000" />
     </task>
     <servers />
   </component>
@@ -97,6 +116,8 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="402" y="0" key="#Flask_(servidor/main.py)" />
+    <state x="402" y="0" key="#Flask_(servidor/main.py)/1366.768" />
     <state x="466" y="79" key="FileChooserDialogImpl" />
     <state x="466" y="79" key="FileChooserDialogImpl/1366.768" />
     <state x="327" y="0" key="SettingsEditor" />

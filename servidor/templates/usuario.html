@@ -10,9 +10,11 @@
     {% from "_macros.html" import formularioContactar %}
 
     <form action="/" method="post">
-      {{ formularioContactar(form.nombre) }}
-      {{ formularioContactar(form.email) }}
-      {{ formularioContactar(form.comentario) }}
+      {% for i in form %}
+      {{ formularioContactar(i) }}
+      {% endfor %}
+
+
       <button type="submit">Enviar</button>
 
 
