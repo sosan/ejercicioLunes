@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9be10ab9-a0fe-42cd-9026-28f671aaf425" name="Default Changelist" comment="" />
+    <list default="true" id="9be10ab9-a0fe-42cd-9026-28f671aaf425" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servidor/templates/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/servidor/templates/usuario.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ejercicioLunes" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RZ2wPuj1zI2q8QOpP7tRcvPAUc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -49,6 +54,9 @@
       <module name="ejercicioibeconLunes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/servidor" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -81,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569860535862</updated>
       <workItem from="1569860537868" duration="3774000" />
+      <workItem from="1569866301001" duration="175000" />
     </task>
     <servers />
   </component>

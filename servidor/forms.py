@@ -8,6 +8,6 @@ class TemplateFormLogin(Form):  # FlaskForm
     comentario = TextField("comentario")
 
 
-# def formularioContactar():
-#     formulario = TemplateFormLogin()
-#     return formulario
+def formularioContactar():
+    formulario = TemplateFormLogin()
+    return formulario
