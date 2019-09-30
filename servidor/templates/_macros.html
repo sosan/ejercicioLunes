@@ -1,0 +1,26 @@
+{% macro desplegableMovil(uno, dos, tres, cuatro) %} 
+<input type="checkbox" id="boton">
+<label for"boton">
+</label>
+
+{% endmacro %}
+
+
+{% macro tituloSubtitulo(titulo, subtitulo) %}
+
+<h2>{{ titulo }} </h2>
+<h2>{{ subtitulo }}</h2>
+{%endmacro %}
+
+
+{% macro formularioContactar(campo) %}
+
+
+
+    {{ campo.label }}
+    <!-- **kwards dicicionario de argumentos convertido en html-->
+    {{ campo(**kwargs) | safe }}
+
+
+
+{%endmacro %}

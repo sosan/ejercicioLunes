@@ -1,0 +1,17 @@
+ {#
+    {%block content %}
+    <h1>El usuario es {{ usuario }}</h1>
+    {% if usuario == "toni" %}
+    <h2>Es el mejor</h2>
+    {%endif %} {% for i in ("Inicio", "Galeria", "Contactar") %}
+    <a href="{{ i }}.html">{{ i }}</a>
+
+    {%endfor %} {% from "_macros.html" import desplegableMovil %}
+    {{ desplegableMovil("Galeria1", "Galeria2", "Galeria3", "Galeria4") }}
+
+   {% from "_macros.html" import tituloSubtitulo("Eltiempoenmallorca", "Palma") %}
+
+
+
+    {% endblock %}
+#}
